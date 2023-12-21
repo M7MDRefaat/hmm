@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    background: url(bgImage1.avif) bottom center;
+    background-size: cover;
+}
+
+#drums{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 13px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.311);
+    transition: 0.3s;
+    box-shadow: 0 0 5px black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: orange;
+    box-shadow: 0 0 5px orange;
+    text-shadow: 0 0 10px orange;
+
+}
